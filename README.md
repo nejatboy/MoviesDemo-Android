@@ -9,7 +9,7 @@ https://www.themoviedb.org sitesinin sağladığı API üzerinden vizyonda olan 
 
 ## Kullanılan Mimari Ve Detayları
 - Projede tasarım anlamında XML koduna yer verilmedi. Tasarımlar programatik olarak Kotlin dili ile yazıldı. 
-- Her Activity ve Fragment'ların ConstraintLayout'dan türetilkmiş Layout katmanı bulunmaktadır. Bu katmanlar kendilerine ait Fragment veya Activity ile haberleşmektedir.
+- Her Activity ve Fragment'ların ConstraintLayout'dan türetilmiş Layout katmanı bulunmaktadır. Bu katmanlar kendilerine ait Fragment veya Activity ile haberleşmektedir.
 - Tek Activity, birden fazla Fragment mantığı temel alınmıştır.
 - Activity, Fragment'ları tutma ve yönlendirme görevi görür.
 - Fragment'lar ihtiyaca göre Primary Fragment, Secondary Fragment, Tertiary Fragment olarak alt bölümlere ayrılır.
