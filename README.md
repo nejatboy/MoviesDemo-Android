@@ -13,7 +13,7 @@ https://www.themoviedb.org sitesinin sağladığı API üzerinden vizyonda olan 
 - Tek Activity, birden fazla Fragment mantığı temel alınmıştır.
 - Activity, Fragment'ları tutma ve yönlendirme görevi görür.
 - Fragment'lar ihtiyaca göre Primary Fragment, Secondary Fragment, Tertiary Fragment olarak alt bölümlere ayrılır.
-- Her Fragment sınıfının ihtiyaç durumunda Logic işlemlerinin yapıldığı Interactor katmanı olabilir. Interactor sınıfları Coroutines sınıfından miras alır. Bu sayedegerekli olduğu durumlarda Coroutines teknolojisi ile Asnyc olarak kod parçacıklarını çalıştırabilir.
+- Her Fragment sınıfının ihtiyaç durumunda Logic işlemlerinin yapıldığı Interactor katmanı olabilir. Interactor sınıfları Coroutines sınıfından miras alır. Bu sayede gerekli olduğu durumlarda Coroutines teknolojisi ile Asnyc olarak kod parçacıklarını çalıştırabilir.
 - Interactor sınıfı olan Fragment'lar birbirleri ile haberleşmesi mümkün olur.
 - API işlemleri için WebService sınıfı mevcuttur. Bu sınıf Fragment'ların Interactor sınıfı ile iletişim halinde olurlar.
 - Mimariye ait Flow Chart çizimini aşağıda inceleyebilirsiniz.
